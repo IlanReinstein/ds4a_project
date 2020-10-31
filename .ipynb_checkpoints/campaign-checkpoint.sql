@@ -1,1 +1,0 @@
-SELECT sku_plu as plu, campaign, clasificacion, tipo_prenda, color_comercial, codigo_color, talla, grupo_articulo, SUM(dda_und) as dda, SUM(fac_und) as fac, AVG(precio_catalogo) as precio, AVG(upe_D) as upe from campanas where clasificacion = 'Moda' group by sku_plu, campaign, clasificacion, tipo_prenda, color_comercial, codigo_color, talla, grupo_articulo;
