@@ -1,0 +1,1 @@
+select * from catalogo where clasificacion = 'Moda' and ocurrencia = 'NUEVO';
